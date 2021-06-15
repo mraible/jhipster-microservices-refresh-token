@@ -1,0 +1,58 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "oauth2",
+    "clientFramework": "vue",
+    "serverPort": "8080",
+    "serviceDiscoveryType": "eureka",
+    "skipUserManagement": true,
+    "withAdminUi": true,
+    "baseName": "gateway",
+    "buildTool": "gradle",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": ["en"],
+    "messageBroker": false,
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "skipClient": false,
+    "testFrameworks": ["cypress"],
+    "websocket": false,
+    "reactive": true,
+    "packageName": "com.okta.developer.gateway",
+    "packageFolder": "com/okta/developer/gateway",
+    "applicationType": "gateway",
+    "jhipsterVersion": "7.0.1",
+    "skipServer": false,
+    "clientPackageManager": "npm",
+    "dtoSuffix": "DTO",
+    "entitySuffix": "",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "applicationIndex": 0,
+    "applications": {
+      "blog": {
+        "applicationIndex": 1,
+        "serverPort": "8081"
+      },
+      "store": {
+        "applicationIndex": 2,
+        "serverPort": "8082"
+      }
+    },
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "blueprints": [],
+    "otherModules": [],
+    "pages": [],
+    "nativeLanguage": "en",
+    "creationTimestamp": 1623771183157,
+    "devServerPort": 9060,
+    "entities": ["Tag", "Product", "Blog", "Post"],
+    "lastLiquibaseTimestamp": 1623771423000
+  }
+}
